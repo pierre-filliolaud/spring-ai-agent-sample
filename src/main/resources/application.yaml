@@ -8,3 +8,7 @@ langchain4j:
       api-key: ${OPENAI_API_KEY}
       model-name: ${OPENAI_MODEL:gpt-4o-mini}
       temperature: 0.2
+
+app:
+  workspace:
+    root: ${WORKSPACE_ROOT:./workspace}

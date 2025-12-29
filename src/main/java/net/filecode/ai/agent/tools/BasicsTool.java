@@ -1,4 +1,4 @@
-package net.filecode.ai.agent.tool;
+package net.filecode.ai.agent.tools;
 
 import dev.langchain4j.agent.tool.Tool;
 import org.springframework.stereotype.Component;

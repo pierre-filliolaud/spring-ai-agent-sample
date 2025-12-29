@@ -20,6 +20,10 @@ repositories {
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-webmvc'
+	implementation "dev.langchain4j:langchain4j-open-ai-spring-boot-starter:1.10.0"
+	implementation "dev.langchain4j:langchain4j-agent:1.10.0"
+	implementation "dev.langchain4j:langchain4j:1.10.0"
+
 	testImplementation 'org.springframework.boot:spring-boot-starter-webmvc-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }

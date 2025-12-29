@@ -1,6 +1,6 @@
 plugins {
 	id 'java'
-	id 'org.springframework.boot' version '4.0.1'
+	id 'org.springframework.boot' version '3.3.5'
 	id 'io.spring.dependency-management' version '1.1.7'
 }
 
@@ -10,7 +10,7 @@ description = 'Sample AI Agent built with Spring Boot and LangChain4j'
 
 java {
 	toolchain {
-		languageVersion = JavaLanguageVersion.of(25)
+		languageVersion = JavaLanguageVersion.of(21)
 	}
 }
 
@@ -19,12 +19,12 @@ repositories {
 }
 
 dependencies {
-	implementation 'org.springframework.boot:spring-boot-starter-webmvc'
-	implementation "dev.langchain4j:langchain4j-open-ai-spring-boot-starter:1.10.0"
-	implementation "dev.langchain4j:langchain4j-agent:1.10.0"
+	implementation 'org.springframework.boot:spring-boot-starter-web'
+	implementation "dev.langchain4j:langchain4j-open-ai-spring-boot-starter:1.10.0-beta18"
+	implementation "dev.langchain4j:langchain4j-agentic:1.10.0-beta18"
 	implementation "dev.langchain4j:langchain4j:1.10.0"
 
-	testImplementation 'org.springframework.boot:spring-boot-starter-webmvc-test'
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 	testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 }
 

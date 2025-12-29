@@ -8,7 +8,7 @@ This project demonstrates how to build a tool-enabled agent (function calling) i
 
 ## ✨ Features
 
-- Spring Boot 4.0 + Java 25
+- Spring Boot 3.3.5 + Java 21
 - LangChain4j 1.10 (official Spring Boot starter)
 - Tool-enabled AI Agent (`@Tool`)
 - Clean, extensible project structure
@@ -19,8 +19,8 @@ This project demonstrates how to build a tool-enabled agent (function calling) i
 
 ## 🧱 Tech Stack
 
-- **Java 25**
-- **Spring Boot 4**
+- **Java 21**
+- **Spring Boot 3**
 - **LangChain4j 1.10**
 - **OpenAI Chat Models**
 - **Gradle**
